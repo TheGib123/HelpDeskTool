@@ -14,7 +14,6 @@ def GetInfo():
 
 def MainMenu():
     global ipAddress, command
-    #os.system('cls')
     while (True):
         os.system('cls')
         if (ipAddress == ""):
